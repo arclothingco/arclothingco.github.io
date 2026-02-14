@@ -3,98 +3,146 @@
 <head>
 <title>AR CLOTHING</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:#ffffff;
 }
 
-.header {
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
+/* HEADER */
+.header{
+background:#c40000;
+color:white;
+text-align:center;
+padding:60px 20px;
 }
 
-.header h1 {
-  font-size: 48px;
-  margin: 0;
-  letter-spacing: 3px;
+.logo{
+width:120px;
+margin-bottom:15px;
 }
 
-.tagline {
-  margin-top: 10px;
-  font-size: 18px;
+.brand{
+font-size:48px;
+font-weight:bold;
+letter-spacing:3px;
 }
 
-.section {
-  padding: 50px 20px;
-  text-align: center;
+.tagline{
+font-size:18px;
+margin-top:10px;
 }
 
-.section h2 {
-  color: red;
-  margin-bottom: 20px;
+/* SECTIONS */
+.section{
+padding:60px 20px;
+text-align:center;
 }
 
-.about {
-  max-width: 800px;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.6;
+.section h2{
+color:#c40000;
+margin-bottom:25px;
 }
 
-.footer {
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+.content{
+max-width:800px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
 }
 
-.menu-btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  font-size: 26px;
-  color: white;
-  background: red;
-  padding: 8px 14px;
-  cursor: pointer;
+/* CONTACT BUTTONS */
+.button{
+display:inline-block;
+padding:12px 25px;
+margin:10px;
+background:#c40000;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
 }
 
+.button:hover{
+background:#900000;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+.footer{
+background:#c40000;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:600px){
+.brand{
+font-size:32px;
+}
+}
 </style>
 </head>
+
 <body>
 
-<div class="menu-btn">☰</div>
-
 <div class="header">
-  <h1>AR CLOTHING</h1>
-  <div class="tagline">Jeans – Cotton – Shorts</div>
+<img src="https://via.placeholder.com/120" class="logo">
+<div class="brand">AR CLOTHING</div>
+<div class="tagline">Jeans – Cotton – Shorts</div>
 </div>
 
 <div class="section">
-  <h2>ABOUT US</h2>
-  <div class="about">
-    We are manufacturers of premium denim jeans, cotton trousers and quality men's bottom wear including cotton and denim shorts.  
-    <br><br>
-    We are into this business since 2003, focusing mainly on quality, durability and customer satisfaction.
-  </div>
+<h2>ABOUT US</h2>
+<div class="content">
+We are manufacturers of premium denim jeans, cotton trousers and quality men’s bottom wear including cotton and denim shorts.  
+<br><br>
+We are into this business since 2003, focusing mainly on quality, durability and customer satisfaction.
+</div>
 </div>
 
 <div class="section">
-  <h2>OUR PRODUCTS</h2>
-  Premium Denim Jeans<br>
-  Cotton Trousers<br>
-  Cotton Shorts<br>
-  Denim Shorts
+<h2>OUR PRODUCTS</h2>
+<div class="content">
+Premium Denim Jeans<br><br>
+Cotton Trousers<br><br>
+Cotton Shorts<br><br>
+Denim Shorts
 </div>
+</div>
+
+<div class="section">
+<h2>CONTACT US</h2>
+<div class="content">
+D.No.315, Asawa Building<br>
+APMC Yard, Beside JMS Petrol Bunk<br>
+Bangalore Road, Ballari - 583101<br>
+Karnataka<br><br>
+
+<a href="tel:8884831680" class="button">Call Now</a>
+<a href="https://wa.me/918884831680" class="button">WhatsApp</a>
+</div>
+</div>
+
+<a href="https://wa.me/918884831680" class="whatsapp">WhatsApp</a>
 
 <div class="footer">
-  © 2026 AR CLOTHING. All Rights Reserved.
+© 2026 AR CLOTHING | All Rights Reserved
 </div>
 
 </body>
